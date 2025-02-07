@@ -9,6 +9,5 @@ int main() {
     else{
         printf("Not Set");
     }
-    printf("%d",result);
     return 0;
 }
