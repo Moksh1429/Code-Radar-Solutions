@@ -8,5 +8,8 @@ int main() {
     else{
         printf("Not a Leap Year");
     }
+    if(n==1900){
+        printf("Not a Leap Year");
+    }
     return 0;
 }
