@@ -3,45 +3,13 @@
 int main(){
     int day;
     scanf("%d",&day);
-    if(day==1){
+    if(day == 1 || day == 3 || day == 5 || day == 7 || day == 8 || day == 10 || day == 12){
         printf("31");
     }
     else if(day==2){
         printf("28");
     }
-    else if(day==3){
+    else if(day == 4 || day == 6 || day == 9 || day == 11){
         printf("30");
     }
-    else if(day==4){
-        printf("31");
-    }
-    else if(day==5){
-        printf("30");
-    }
-    else if(day==6){
-        printf("31");
-    }
-    else if(day==7){
-        printf("30");
-    }
-    else if(day==8){
-        printf("31");
-    }
-    else if(day==9){
-        printf("30");
-    }
-    else if(day==10){
-        printf("31");
-    }
-    else if(day==11){
-        printf("30");
-    }
-    else if(day==12){
-        printf("31");
-    }
-    else{
-        printf("Invalid month");
-    }
-    }
-
 }
