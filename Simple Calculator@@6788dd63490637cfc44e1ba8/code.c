@@ -3,21 +3,18 @@
 int main(){
     int a,b;
     scanf("%d%d",&a,&b);
-    char ch[]={'+','-','/','*'};\
+    char ch;
+    scanf("%c",&ch);
     if(ch=='+'){
-        int sum=a+b;
-        printf("%d",sum);
+        printf("%d",a+b);
     }
     else if(ch=='-'){
-        int sub=a-b;
-        printf("%d",sub);
+        printf("%d",a-b);
     }
     else if(ch=='*'){
-        int into=a*b;
-        printf("%d",into);
-    }
-    else if(ch=='/'){
-        int divide=a/b;
-        printf("%d",divide);
+        if(b!=0){
+            printf("%d",a/b);
+        }
     }
 }
+            
