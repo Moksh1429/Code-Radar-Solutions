@@ -3,10 +3,15 @@
 int main(){
     int count=0;
     int n;
+    if(n<2){
+        print("Not Prime");
+    }
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
-        int k=n%i==0;
-        count=count+1;
+        if(=n%i==0){
+            count=count+1;
+
+        }
     }
     if(count==2){
         print("Prime");
