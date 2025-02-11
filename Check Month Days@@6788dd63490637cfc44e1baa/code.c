@@ -12,4 +12,7 @@ int main(){
     else if(day == 4 || day == 6 || day == 9 || day == 11){
         printf("30");
     }
+    else{
+        printf("Invalid month");
+    }
 }
