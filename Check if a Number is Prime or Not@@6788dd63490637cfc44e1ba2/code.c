@@ -18,11 +18,10 @@ int main() {
         }
     }
 
-    if (count == 2){
-        printf("%d",i);
-    }
-        
-    
+    if (count == 2)
+        printf("Prime\n");
+    else
+        printf("Not Prime\n");
 
     return 0;
 }
