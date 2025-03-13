@@ -7,4 +7,5 @@ int main(){
         int mult=n*i;
         printf("%d x %d = %d",n,i,mult);
     }
+    printf("\n");
 }
