@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
-    char n;
-    scanf("%c", &n);
-    for (char i = 'A'; i <= n; i++) {
-        for (char j = 'A'; j <= i; j++) {
+    int n;
+    scanf("%d", &n);
+    for (int i = 65; i <= n; i++) {
+        for (char j = 65; j <= i; j++) {
             printf("%c ", j);
         }
         printf("\n"); // Print a new line after each row
